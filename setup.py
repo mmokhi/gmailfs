@@ -12,7 +12,7 @@ setup(
 	author_email = 'mmokhi@FreeBSD.org',
 	url = 'https://github.com/mmokhi/gmailfs',
 	packages = ['gmailfs'],
-	package_dir = {'.':'./conf/'},
-	scripts = ['./gmailfs.py'],
+	package_dir = {'gmailfs':'src/gmailfs/'},
+	scripts = ['src/gmailfs/gmailfs.py'],
 	data_files = df,
 )
