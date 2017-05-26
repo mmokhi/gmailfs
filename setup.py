@@ -12,4 +12,5 @@ setup(
 	packages = ['gmailfs'],
 	package_dir = {'gmailfs':'src/gmailfs/'},
 	scripts = ['src/gmailfs/gmailfs.py'],
+	datafiles = [('/usr/local/etc/gmailfs/gmailfs.conf', ['src/gmailfs/conf/gmailfs.conf'])],
 )
