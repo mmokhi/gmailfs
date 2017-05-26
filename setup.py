@@ -2,9 +2,7 @@ from distutils.core import setup
 import os
 
 # Please run
-# python setup.py install
-
-df = []    
+# python setup.py install   
 
 setup(
 	name = 'gmailfs',
@@ -14,5 +12,4 @@ setup(
 	packages = ['gmailfs'],
 	package_dir = {'gmailfs':'src/gmailfs/'},
 	scripts = ['src/gmailfs/gmailfs.py'],
-	data_files = df,
 )

@@ -116,7 +116,7 @@ DefaultBlockSize = 512 * 1024
 # How many blocks can we cache at once
 BlockCacheSize = 100
 
-SystemConfigFile = "/etc/gmailfs/gmailfs.conf"
+SystemConfigFile = "/usr/local/etc/gmailfs/gmailfs.conf"
 UserConfigFile = abspath(expanduser("~/.gmailfs.conf"))
 
 GMAILFS_VERSION = '5'
