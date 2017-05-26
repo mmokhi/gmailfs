@@ -11,6 +11,6 @@ setup(
 	url = 'https://github.com/mmokhi/gmailfs',
 	packages = ['gmailfs'],
 	package_dir = {'gmailfs':'src/gmailfs/'},
-	scripts = ['src/gmailfs/gmailfs.py'],
+	scripts = ['src/gmailfs/mount_gmailfs'],
 	data_files = [('/usr/local/etc/gmailfs/', ['src/gmailfs/conf/gmailfs.conf'])],
 )
