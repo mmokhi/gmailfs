@@ -6,8 +6,8 @@ import os
 
 setup(
 	name = 'gmailfs',
+	version = '0.8.6',
 	author = 'Mahdi Mokhtari',
-	author_email = 'mmokhi@FreeBSD.org',
 	url = 'https://github.com/mmokhi/gmailfs',
 	packages = ['gmailfs'],
 	package_dir = {'gmailfs':'src/gmailfs/'},
